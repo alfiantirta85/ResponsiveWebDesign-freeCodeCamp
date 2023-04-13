@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Baskervville', serif;
+    background-color: white;
+}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: white;
+}
+#header-img {
+    width: 350px;
+    height: 40px;
+}
+#nav-bar li {
+    list-style-type: none;
+    float: left;
+    margin-right: 100px;
+    font-size: 1.5rem;
+}
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+#intro {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+#intro h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+#intro form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#intro #email {
+    width: 280px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+#intro #submit {
+    width: 150px;
+    height: 30px;
+    background-color: yellow;
+    border: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    color: orange;
+}
+#features {
+    margin-bottom: 60px;
+    font-size: 1.1rem;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.feature .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
+iframe {
+    width: 700px;
+    height: 350px;
+    margin-bottom: 100px;
+}
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.product {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 20px;
+    width: 300px;
+}
+.product li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.nama {
+    margin-bottom: 5px 10px;
+    background-color: rgb(180, 180, 180);
+    padding: 20px;
+    font-weight: 700;
+}
+.price {
+    margin: 10px 0px;
+}
+.btn {
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    border: 0;
+    font-weight: 600;
+}
+footer {
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    height: 90px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 20px 0px 10px 0px;
+}
+footer li {
+    margin: 0px 70px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer span {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width: 720px) {}
